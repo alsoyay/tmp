@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alfred-Grocery/View Controllers/ALMyItemsViewController.m"
+            timestampString = "463282091.399342"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cocoapods/AYSwift/Pod/Classes/UILayerView.swift"
+            timestampString = "463453857.684951"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cocoapods/AYSwift/Pod/Classes/UILayerView.swift"
+            timestampString = "463456614.587593"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "UILayerView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AYSwift.UILayerView.customLayer.getter : Swift.Optional&lt;ObjectiveC.CALayer&gt;"
+                  moduleName = "AYSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dpostigo/cocoapods/AYSwift/Pod/Classes/UILayerView.swift"
+                  timestampString = "463460689.923742"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AYSwift.UILayerView.customLayer.setter : Swift.Optional&lt;ObjectiveC.CALayer&gt;"
+                  moduleName = "AYSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dpostigo/cocoapods/AYSwift/Pod/Classes/UILayerView.swift"
+                  timestampString = "463460689.923998"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AYSwift.UILayerView.customLayer.materializeForSet : Swift.Optional&lt;ObjectiveC.CALayer&gt;"
+                  moduleName = "AYSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dpostigo/cocoapods/AYSwift/Pod/Classes/UILayerView.swift"
+                  timestampString = "463460689.924205"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AYSwift.UILayerView.init (AYSwift.UILayerView.Type)(frame : C.CGRect) -&gt; AYSwift.UILayerView"
+                  moduleName = "AYSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dpostigo/cocoapods/AYSwift/Pod/Classes/UILayerView.swift"
+                  timestampString = "463460689.924395"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "129">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AYSwift.UILayerView.init (AYSwift.UILayerView.Type)(coder : ObjectiveC.NSCoder) -&gt; AYSwift.UILayerView"
+                  moduleName = "AYSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dpostigo/cocoapods/AYSwift/Pod/Classes/UILayerView.swift"
+                  timestampString = "463460689.924512"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "93">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cocoapods/AYSwift/Pod/Classes/UILayerView.swift"
+            timestampString = "463456615.445432"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "UILayerView"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

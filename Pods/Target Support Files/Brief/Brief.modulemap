@@ -1,0 +1,6 @@
+framework module Brief {
+  umbrella header "Brief-umbrella.h"
+
+  export *
+  module * { export * }
+}

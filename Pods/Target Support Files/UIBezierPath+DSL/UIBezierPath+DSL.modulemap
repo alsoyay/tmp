@@ -1,0 +1,6 @@
+framework module UIBezierPath_DSL {
+  umbrella header "UIBezierPath+DSL-umbrella.h"
+
+  export *
+  module * { export * }
+}

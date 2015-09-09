@@ -1,0 +1,38 @@
+PODS:
+  - A3ParallaxScrollView (1.0.2)
+  - ALSwift (0.1.0):
+    - AYSwift
+  - AYKit (0.1.0)
+  - AYSwift (0.1.0):
+    - Brief
+  - Brief (0.1.0)
+  - PocketSVG (0.6)
+  - UIBezierPath+DSL (0.1.1)
+
+DEPENDENCIES:
+  - A3ParallaxScrollView
+  - ALSwift (from `~/cocoapods/ALSwift`)
+  - AYKit (from `~/Development/cocoapods/AYKit`)
+  - AYSwift (from `~/cocoapods/AYSwift`)
+  - Brief
+  - PocketSVG
+  - UIBezierPath+DSL
+
+EXTERNAL SOURCES:
+  ALSwift:
+    :path: "~/cocoapods/ALSwift"
+  AYKit:
+    :path: "~/Development/cocoapods/AYKit"
+  AYSwift:
+    :path: "~/cocoapods/AYSwift"
+
+SPEC CHECKSUMS:
+  A3ParallaxScrollView: 1d16dc1881721642d5f25e320cabe7adcc997035
+  ALSwift: b248d4d3b3edfcd275f356eb445cf70edcfe32ae
+  AYKit: 7125fc49de7c16d417ff5ea1fbf8bfa96cbb73e2
+  AYSwift: 70c01849b4ea76a388fe0d85e5f8a2751fcdd38e
+  Brief: 8ac8d309cfe03f68f3025d49d7bc96fd9845fd78
+  PocketSVG: cf122986a895bf81e8e2349e81350df51a9c6970
+  UIBezierPath+DSL: a191416ee0bc3be853fdde7a4def36b93a8d2312
+
+COCOAPODS: 0.38.2

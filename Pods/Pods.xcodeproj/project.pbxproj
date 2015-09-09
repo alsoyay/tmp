@@ -1,0 +1,1918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B3F89490DC574580A4947751FD5228 /* AYUICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6064BA571181A0DB9EC5C5051DAA2C46 /* AYUICollectionViewCell.m */; };
+		07D1EC283D3F4A93DEEBBC2A9ED91BF2 /* PocketSVG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC9723605CC60C20745CC0A95BB6EB5 /* PocketSVG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B668B0FAADB7C513DD32470FE057A60 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 895104A01DAF782837543B251E7E76F8 /* Pods-dummy.m */; };
+		1E41C26424ECC220807CA880C9F33B27 /* AYSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C676898A8FBE153B5C854B04F97CB7 /* AYSource.swift */; };
+		208E8C1898439ADB2FE441173E70D6EA /* Brief-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A6476680D90CFF0C2A07A26B73B29 /* Brief-dummy.m */; };
+		24D421389BA0ED949D9649CDED3D12BE /* UIBezierPath+DSL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CA5EA10DA4A0FAF1978C2B945550F8 /* UIBezierPath+DSL-dummy.m */; };
+		261105E6849935205A250A6CB279B5B0 /* AYSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F190A11B230719D7BCDA95B564308EC /* AYSwift-dummy.m */; };
+		2F3B67EF87C65BEF5C518EF3AEF15CEC /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 22382A0FB63AD7C39D160F6FC36C43A1 /* PocketSVG.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3E0DD5F418A9B7FDFFB68A14D5DA0D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4132391D687507E2BFE7B5BFCCD1C6B5 /* Foundation.framework */; };
+		3E76CFF5B40ECBA5387BFF04ED342020 /* AYSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6761877BF1A5B9228E12F0D4A2F24763 /* AYSwift.framework */; };
+		467FE46BB2847678FC875A102E940E2B /* AYKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1503CC92248EC12C1B6CF809EAEC0A40 /* AYKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		499B59685C0561554A30C834D79CA762 /* Brief.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63254E057828C4588AC2EA2FCD45BFD /* Brief.framework */; };
+		49A6D38FE59E6BEDFE156542B493B19A /* A3ParallaxScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B161E169A2780DF46094971263CAB875 /* A3ParallaxScrollView.m */; };
+		4BDF7540C3655BE4C6D53CA2AE03683F /* AYUICollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7736C28E50E20E07E81E84317D422970 /* AYUICollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ECAABC6E040AFB96B18988B9CFC94EA /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E99EB508DBAD6E988A5C89F52E31528 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		558F4FD022216F7185B574130117BA0B /* CAShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E96394950E0F76083437D075DB76B0 /* CAShapeLayer.swift */; };
+		564BDA00C643966FE8C51FE7F3118827 /* ALSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F214ED77944820EAD0E9D61825653497 /* ALSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		574463BA148626DF3D37C2BFE003FBD2 /* ALSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7A336BA4F37E5C48800BA1EB6D1323 /* ALSwift-dummy.m */; };
+		589D9537090AA78D1E14E2D88737C192 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC1723F6CF48AE3F5DE34E96A03EAC /* ReplaceMe.swift */; };
+		601726D220B2A6191A65CA2DFD09F211 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4132391D687507E2BFE7B5BFCCD1C6B5 /* Foundation.framework */; };
+		609908888E4BCE904FC044954205FAB9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E144CFC0F6940C4721C7EEDCCAD31F58 /* QuartzCore.framework */; };
+		6148857CC57E9985522CFED81AE16324 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637CD08F1124F84684508A17AD2588D /* UIBezierPath.swift */; };
+		669539557128D8BEC04E5C93815D50EB /* ALSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9926B5B99F6E0DBDA4134112D2C59701 /* ALSwift.bundle */; };
+		690FF751A18EBC9681677511AD80C9FE /* UIView+AYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9F818F338CA736403560DBDAA59EC /* UIView+AYKit.m */; };
+		6B317DB473DE9907E446F5ABE4D2FB89 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576DA021FBFEF841332C0D73F5EE98D1 /* CALayer.swift */; };
+		6E6FDA8F53D983148B69666E1BF7BC4D /* UIBezierPath+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 034CBD6A178D32B25F721BA38EDC2384 /* UIBezierPath+DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC6BA08C8DF7E4F8F5D5DE94B602866 /* Brief.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7349271DB18AC20C1B038C0D392A8 /* Brief.swift */; };
+		7121B985979487A085BB2463FDBE8097 /* ALItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DF5124DCA6F23F7290107247A00795 /* ALItem.swift */; };
+		73F0DEEAF26DE16BBA3BAD1B98F58B43 /* AYKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4330030FC189BF24151199DDCD96E7 /* AYKit-dummy.m */; };
+		74838C8FF04A3A583209E5B5E02CF367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4132391D687507E2BFE7B5BFCCD1C6B5 /* Foundation.framework */; };
+		816B5CA44DFDB40A2D31814863A59B14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1F58DE94242FA379F9E7AF5B68DF3E /* CoreGraphics.framework */; };
+		86A461F6C07E62687DCCE676F80FB2F8 /* ALSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C05A188AECAECD85C4429419DC170 /* ALSource.swift */; };
+		9616638F0A04CC32F6630FA79A9D9EA3 /* A3ParallaxScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E2748668779D598B80A15B22A2A829 /* A3ParallaxScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EE71047156CC27EB5D75AB548B2C71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4132391D687507E2BFE7B5BFCCD1C6B5 /* Foundation.framework */; };
+		A476FF11FC576CDA8A243196AF4300AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4132391D687507E2BFE7B5BFCCD1C6B5 /* Foundation.framework */; };
+		B820FCA291B4277679F621AC37CFF6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4132391D687507E2BFE7B5BFCCD1C6B5 /* Foundation.framework */; };
+		BE8B84BE48631F1C9CFCC32511745DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4132391D687507E2BFE7B5BFCCD1C6B5 /* Foundation.framework */; };
+		C3306D96A96F96F03C81C847EC9651B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7769A5B3A8C1C71E82C6A83BD40DE7 /* UIKit.framework */; };
+		C4617BBC4AF73F6292D0881CE0173E87 /* Brief-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC06FF3882821E1A44F9C2B6B132C2F /* Brief-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C50EADA3827D6E59BC8770E5DCBD4D69 /* UIView+AYKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E66628CBEE6EC02944053DD9A5460ED4 /* UIView+AYKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E7377D5F301DFF534A80E93BF35606 /* UIBezierPath+DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB224297BAC2B24130D52B550F5B3CC /* UIBezierPath+DSL.m */; };
+		CB77EE7BA6BEB3B4A4D95B2C110196A7 /* AYKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7DD4AF016B92095413D1683BEA74D450 /* AYKit.bundle */; };
+		CF1BAF16739DEEBBA6E02766D545593D /* UILayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068EBD0FECDDED939D2304BD6C31962 /* UILayerView.swift */; };
+		D47CB98E94E458435FE1487963577716 /* AYSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 684A0C26681F27B5E26FEB64E9C4F7C3 /* AYSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4C0EEAAB21C894DD86836768E832B81 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FAF12A7B681883C217723FE9620F7E /* ReplaceMe.swift */; };
+		D92D9E568C1F3051B29285A4AF44408B /* A3ParallaxScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6AFB1CF09760ADD1FC7C326FC0C443 /* A3ParallaxScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA257524B2D2BA87145F94537B52195B /* AYSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C00836063132E39627D78F6945796280 /* AYSwift.bundle */; };
+		DAB875CB051CC37C13530C85C1960112 /* PocketSVG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FDF961A9DE6452CD17C601F6A6AFC /* PocketSVG-dummy.m */; };
+		E1D3CC988BE7BF57D2A9A0DE79B2711F /* UIBezierPath+DSL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 903B59FCF5D0C928668C2A5B9DCC9BA2 /* UIBezierPath+DSL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEDA6DA0CC4F7915FDDBC4492B62A883 /* AYUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9DD44D55294EE79E93CF0A0270603 /* AYUICollectionViewCell.swift */; };
+		F1F7963A3D03B25EA92FB5EC13687656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4132391D687507E2BFE7B5BFCCD1C6B5 /* Foundation.framework */; };
+		F38CC8AD6D647A405A3CF22B74B822A4 /* A3ParallaxScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A8AE833801F8DAD66F9914F3013578 /* A3ParallaxScrollView-dummy.m */; };
+		F6B400A3C48363AEA61DF50493FD2FFB /* PocketSVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE073BB0FEACDAF9A8FA9E11912855E /* PocketSVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		083287CCD9EE802F25530768631069C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B06D788187A9943B0008C6B7A4A394EA;
+			remoteInfo = "AYSwift-AYSwift";
+		};
+		45245CA72BC974FE243C32E3B29FEE29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C876C7AF8C5D33FA25FF56878B02DE19;
+			remoteInfo = Brief;
+		};
+		4F3D8394E3D222A82DE273A5A86031BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0375EBA0B8BC19C197C1895BD407E7C;
+			remoteInfo = AYSwift;
+		};
+		726A7E5E4BA1E0530B240E6CBAF0170A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5DC53611B9C498742E2E04AD187576;
+			remoteInfo = PocketSVG;
+		};
+		9F159DCB8F6C2FDC2D1E156DF26BC645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4832ED19215BDC132F977EAC817D2568;
+			remoteInfo = AYKit;
+		};
+		AB101389896401932FAC73CD0193005F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77872BD581288B7F9397AB821901E1EE;
+			remoteInfo = "AYKit-AYKit";
+		};
+		B735518DB5C52CF385C43E9F534FE428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396A19DC2FBC4D17862C1B320BA7A7C8;
+			remoteInfo = "ALSwift-ALSwift";
+		};
+		BBE1C0D943C94B84F4A0204CDFA01082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78661BAA6F59FC4A78C79BFA999FF778;
+			remoteInfo = ALSwift;
+		};
+		C11B2856BBA2C63FA5AF81FA2D083869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF3A1EFADDDE4D4E7BE4EFF3000B0F5;
+			remoteInfo = "UIBezierPath+DSL";
+		};
+		DFEB42E9B834CC7D089DD07D57093705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D4139C68BC0C1E7A2EC275BAA15C226;
+			remoteInfo = A3ParallaxScrollView;
+		};
+		E113131BD26B3A5306D3A2937861DADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C876C7AF8C5D33FA25FF56878B02DE19;
+			remoteInfo = Brief;
+		};
+		E2C0632EE3FACCB0656CF910C03BA3CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0375EBA0B8BC19C197C1895BD407E7C;
+			remoteInfo = AYSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013F5C5BDEBEDF7F11A7A1FF16183F57 /* ALSwift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ALSwift-Private.xcconfig"; sourceTree = "<group>"; };
+		034CBD6A178D32B25F721BA38EDC2384 /* UIBezierPath+DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+DSL.h"; path = "UIBezierPath+DSL/UIBezierPath+DSL.h"; sourceTree = "<group>"; };
+		03AD570E8C251F235CEEDC55F4DAEFA8 /* AYKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AYKit-Private.xcconfig"; sourceTree = "<group>"; };
+		0FB8BC47F9C1934B3A43A7AECE741F66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C18A38369AA51370D921CDBAEF4AEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1503CC92248EC12C1B6CF809EAEC0A40 /* AYKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYKit-umbrella.h"; sourceTree = "<group>"; };
+		15F11A8FF36DE65273BE0D8339BADBDC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		174C05A188AECAECD85C4429419DC170 /* ALSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ALSource.swift; sourceTree = "<group>"; };
+		192E773BBC30B1684A25AA2673849D43 /* AYKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYKit.xcconfig; sourceTree = "<group>"; };
+		1C2A1B44D1F6187E7227189295D9956D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E4330030FC189BF24151199DDCD96E7 /* AYKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYKit-dummy.m"; sourceTree = "<group>"; };
+		1E6CA7ED362BF6EBE16AF84549F0A94D /* ALSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALSwift.modulemap; sourceTree = "<group>"; };
+		22382A0FB63AD7C39D160F6FC36C43A1 /* PocketSVG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PocketSVG.m; sourceTree = "<group>"; };
+		2B6FC7C0742ED4E24A640C3E6DC6AB96 /* AYKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYKit-prefix.pch"; sourceTree = "<group>"; };
+		2B92A6EF8369C05FED96686535C86E66 /* PocketSVG-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PocketSVG-prefix.pch"; sourceTree = "<group>"; };
+		2FC9723605CC60C20745CC0A95BB6EB5 /* PocketSVG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PocketSVG-umbrella.h"; sourceTree = "<group>"; };
+		36372D6A7EE64C99A028D9067615A7C8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		39A8AE833801F8DAD66F9914F3013578 /* A3ParallaxScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "A3ParallaxScrollView-dummy.m"; sourceTree = "<group>"; };
+		3E99EB508DBAD6E988A5C89F52E31528 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		4132391D687507E2BFE7B5BFCCD1C6B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		45D7349271DB18AC20C1B038C0D392A8 /* Brief.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Brief.swift; path = Brief/Brief.swift; sourceTree = "<group>"; };
+		4A04AC720FEE2E67E065653BC5CF7CC4 /* AYSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYSwift-prefix.pch"; sourceTree = "<group>"; };
+		4AE073BB0FEACDAF9A8FA9E11912855E /* PocketSVG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PocketSVG.h; sourceTree = "<group>"; };
+		5292883E308E96BD5109F4BA54562D82 /* UIBezierPath+DSL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIBezierPath+DSL.xcconfig"; sourceTree = "<group>"; };
+		5330E909ECC809D4BD3AB326706876EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576DA021FBFEF841332C0D73F5EE98D1 /* CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		5F4824BFE43D0056FD7012917B9E17B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603DCB4EA78A43006660E3A7A9255EC1 /* ALSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALSwift.xcconfig; sourceTree = "<group>"; };
+		6064BA571181A0DB9EC5C5051DAA2C46 /* AYUICollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AYUICollectionViewCell.m; sourceTree = "<group>"; };
+		6349F879EDDD21E4EB79E2F6CA6C094B /* A3ParallaxScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = A3ParallaxScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656DC1476121E31159368C3F6C2D9DFE /* A3ParallaxScrollView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "A3ParallaxScrollView-Private.xcconfig"; sourceTree = "<group>"; };
+		6761877BF1A5B9228E12F0D4A2F24763 /* AYSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		684A0C26681F27B5E26FEB64E9C4F7C3 /* AYSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYSwift-umbrella.h"; sourceTree = "<group>"; };
+		6D23B61E9B8C8E59EFF17F03F69DE47A /* A3ParallaxScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "A3ParallaxScrollView-prefix.pch"; sourceTree = "<group>"; };
+		6DA1EB7D1EF8A121FA9390CA95C48EA1 /* AYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB9DD44D55294EE79E93CF0A0270603 /* AYUICollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYUICollectionViewCell.swift; sourceTree = "<group>"; };
+		6F190A11B230719D7BCDA95B564308EC /* AYSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYSwift-dummy.m"; sourceTree = "<group>"; };
+		70AE8E92D5121022DF0AF0E351A723EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728BF1BB9D0DB9D9B3B9ECCA69CD5563 /* Brief.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Brief.modulemap; sourceTree = "<group>"; };
+		7695DA4300D3F8DB09389A3305A19A7F /* A3ParallaxScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = A3ParallaxScrollView.xcconfig; sourceTree = "<group>"; };
+		7736C28E50E20E07E81E84317D422970 /* AYUICollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AYUICollectionViewCell.h; sourceTree = "<group>"; };
+		77B4412F2F70321ECAD81960EB251BCF /* AYSwift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AYSwift-Private.xcconfig"; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7BC06FF3882821E1A44F9C2B6B132C2F /* Brief-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Brief-umbrella.h"; sourceTree = "<group>"; };
+		7BD266D68DE2E80BE477EFC856934C95 /* AYSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AYSwift.modulemap; sourceTree = "<group>"; };
+		7C1152FEF84979D22BFA1FB5F4C40496 /* PocketSVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PocketSVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD4AF016B92095413D1683BEA74D450 /* AYKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		895104A01DAF782837543B251E7E76F8 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		89EB1A89BDD1A6F469B0F788B22797D9 /* AYSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B021FDAD0A396A20047F776496EE77C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		903B59FCF5D0C928668C2A5B9DCC9BA2 /* UIBezierPath+DSL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+DSL-umbrella.h"; sourceTree = "<group>"; };
+		91060D3A6CA0E1D6586014DAC7F450B2 /* ALSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSwift-prefix.pch"; sourceTree = "<group>"; };
+		962A6476680D90CFF0C2A07A26B73B29 /* Brief-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Brief-dummy.m"; sourceTree = "<group>"; };
+		96675198E53193E59C0A699F6EB2FC75 /* PocketSVG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PocketSVG.modulemap; sourceTree = "<group>"; };
+		9926B5B99F6E0DBDA4134112D2C59701 /* ALSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		996811ACAA9FD06C5052B576D1345931 /* Brief.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Brief.xcconfig; sourceTree = "<group>"; };
+		9B6AFB1CF09760ADD1FC7C326FC0C443 /* A3ParallaxScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A3ParallaxScrollView.h; path = A3ParallaxScrollView/A3ParallaxScrollView.h; sourceTree = "<group>"; };
+		9BF9F818F338CA736403560DBDAA59EC /* UIView+AYKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+AYKit.m"; sourceTree = "<group>"; };
+		9E3FDF961A9DE6452CD17C601F6A6AFC /* PocketSVG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PocketSVG-dummy.m"; sourceTree = "<group>"; };
+		A068EBD0FECDDED939D2304BD6C31962 /* UILayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILayerView.swift; sourceTree = "<group>"; };
+		A5E2748668779D598B80A15B22A2A829 /* A3ParallaxScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "A3ParallaxScrollView-umbrella.h"; sourceTree = "<group>"; };
+		B161E169A2780DF46094971263CAB875 /* A3ParallaxScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A3ParallaxScrollView.m; path = A3ParallaxScrollView/A3ParallaxScrollView.m; sourceTree = "<group>"; };
+		B79215F6E29BF604CF14F22AE0BB75AD /* PocketSVG-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PocketSVG-Private.xcconfig"; sourceTree = "<group>"; };
+		B8DF5124DCA6F23F7290107247A00795 /* ALItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ALItem.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD7A336BA4F37E5C48800BA1EB6D1323 /* ALSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALSwift-dummy.m"; sourceTree = "<group>"; };
+		BD808BF2A76222ECBEADBAACE46CF85F /* UIBezierPath+DSL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+DSL-prefix.pch"; sourceTree = "<group>"; };
+		C00836063132E39627D78F6945796280 /* AYSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50D8BDCA8D4166736077A95FF50E5C6 /* PocketSVG.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PocketSVG.xcconfig; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2F8C573686B3ABD7C1980BD8FC3228A /* AYKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AYKit.modulemap; sourceTree = "<group>"; };
+		D637CD08F1124F84684508A17AD2588D /* UIBezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
+		D649FFE492E712F8B0E77B35E4AA2146 /* UIBezierPath+DSL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIBezierPath+DSL.modulemap"; sourceTree = "<group>"; };
+		D6CA5EA10DA4A0FAF1978C2B945550F8 /* UIBezierPath+DSL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+DSL-dummy.m"; sourceTree = "<group>"; };
+		DCD5125F6DBCED85313D237CB3C1A558 /* UIBezierPath+DSL-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIBezierPath+DSL-Private.xcconfig"; sourceTree = "<group>"; };
+		DE1F58DE94242FA379F9E7AF5B68DF3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E144CFC0F6940C4721C7EEDCCAD31F58 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E1DC1723F6CF48AE3F5DE34E96A03EAC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		E1E96394950E0F76083437D075DB76B0 /* CAShapeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CAShapeLayer.swift; sourceTree = "<group>"; };
+		E2FAF12A7B681883C217723FE9620F7E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		E2FF4470FC6B678E2112D4B803E4E5E0 /* ALSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E646CA56C8E461ABEFCB2B330E473B24 /* Brief-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Brief-prefix.pch"; sourceTree = "<group>"; };
+		E66628CBEE6EC02944053DD9A5460ED4 /* UIView+AYKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+AYKit.h"; sourceTree = "<group>"; };
+		E70BA78FE145CB50A9231833C1A7A367 /* UIBezierPath_DSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIBezierPath_DSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8573839C72A156EED15146501A570C3 /* A3ParallaxScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = A3ParallaxScrollView.modulemap; sourceTree = "<group>"; };
+		E97631D61DC00BC5627E65CCECFA7F7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB224297BAC2B24130D52B550F5B3CC /* UIBezierPath+DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+DSL.m"; path = "UIBezierPath+DSL/UIBezierPath+DSL.m"; sourceTree = "<group>"; };
+		F214ED77944820EAD0E9D61825653497 /* ALSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSwift-umbrella.h"; sourceTree = "<group>"; };
+		F2C676898A8FBE153B5C854B04F97CB7 /* AYSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYSource.swift; sourceTree = "<group>"; };
+		F63254E057828C4588AC2EA2FCD45BFD /* Brief.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Brief.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCC72F531277E0DA2909BA4E8A62610 /* Brief-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Brief-Private.xcconfig"; sourceTree = "<group>"; };
+		FC7769A5B3A8C1C71E82C6A83BD40DE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FEF717AFDACD7475101F22814F0536DF /* Brief.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Brief.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD09C95BF901D86518D942774DAB2DF /* AYSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYSwift.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FB302103FA855FA34523787E396668B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601726D220B2A6191A65CA2DFD09F211 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D248A1974E576FE01089E6585E28B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B08A1EAE774118439BB8D52036F0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74838C8FF04A3A583209E5B5E02CF367 /* Foundation.framework in Frameworks */,
+				609908888E4BCE904FC044954205FAB9 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F0E2F7C118933E94FD8CF48EFDAA43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A476FF11FC576CDA8A243196AF4300AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796E0E866BA0A79303199DACD89EB6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E76CFF5B40ECBA5387BFF04ED342020 /* AYSwift.framework in Frameworks */,
+				B820FCA291B4277679F621AC37CFF6E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D1D84FC9D389645FCF316A251F318D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE71047156CC27EB5D75AB548B2C71E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A42CD599F0E805BB06DE3074429E9E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F7963A3D03B25EA92FB5EC13687656 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41C3822C7D7117372391C08097411CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C796119EEF3975645F6F314F9628F8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0DD5F418A9B7FDFFB68A14D5DA0D0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2D8315888BC7439F8A422DBE0E3E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E868078E813556B0A4344A8E1CB2672A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499B59685C0561554A30C834D79CA762 /* Brief.framework in Frameworks */,
+				816B5CA44DFDB40A2D31814863A59B14 /* CoreGraphics.framework in Frameworks */,
+				BE8B84BE48631F1C9CFCC32511745DD7 /* Foundation.framework in Frameworks */,
+				C3306D96A96F96F03C81C847EC9651B5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0146704BA8F2F926886E259A6C6B7B58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5330E909ECC809D4BD3AB326706876EB /* Info.plist */,
+				D649FFE492E712F8B0E77B35E4AA2146 /* UIBezierPath+DSL.modulemap */,
+				5292883E308E96BD5109F4BA54562D82 /* UIBezierPath+DSL.xcconfig */,
+				DCD5125F6DBCED85313D237CB3C1A558 /* UIBezierPath+DSL-Private.xcconfig */,
+				D6CA5EA10DA4A0FAF1978C2B945550F8 /* UIBezierPath+DSL-dummy.m */,
+				BD808BF2A76222ECBEADBAACE46CF85F /* UIBezierPath+DSL-prefix.pch */,
+				903B59FCF5D0C928668C2A5B9DCC9BA2 /* UIBezierPath+DSL-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIBezierPath+DSL";
+			sourceTree = "<group>";
+		};
+		022AE53889E9E43A0137192E1EFE8097 /* Brief */ = {
+			isa = PBXGroup;
+			children = (
+				45D7349271DB18AC20C1B038C0D392A8 /* Brief.swift */,
+				48BCD829677E528D9E3D7E540AD3BAF9 /* Support Files */,
+			);
+			path = Brief;
+			sourceTree = "<group>";
+		};
+		0DA1ADFB843C17891948EB41A15E783C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DE2D79F68AE4F90B9F921B6A8A9EFA81 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		14C3993B6442CD7577A61A0182DC2797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF473D670C1B770CB6B76D7CA2323C6D /* A3ParallaxScrollView */,
+				022AE53889E9E43A0137192E1EFE8097 /* Brief */,
+				39AB3A82322277CDD72E1074F96438C9 /* PocketSVG */,
+				AC7759FAA966EA711006ACDA92020AD8 /* UIBezierPath+DSL */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		33E897563196ADE399D6ADE70C7547DC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAA2188600899F17ABB36EEECE3B2B96 /* ALSwift */,
+				7F5355778316EFD29059DB1C5EE6F021 /* AYKit */,
+				CDE56C26052D5EBB96F11861E0BB0D69 /* AYSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		39AB3A82322277CDD72E1074F96438C9 /* PocketSVG */ = {
+			isa = PBXGroup;
+			children = (
+				4AE073BB0FEACDAF9A8FA9E11912855E /* PocketSVG.h */,
+				22382A0FB63AD7C39D160F6FC36C43A1 /* PocketSVG.m */,
+				A5B289AD2728833A47A20B571AF2833B /* Support Files */,
+			);
+			path = PocketSVG;
+			sourceTree = "<group>";
+		};
+		3B1F9C5E2C118993D907DF1241E6DAD0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5673A7B9CB3DA1EB1E8E7E365F71AB5A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		48BCD829677E528D9E3D7E540AD3BAF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				728BF1BB9D0DB9D9B3B9ECCA69CD5563 /* Brief.modulemap */,
+				996811ACAA9FD06C5052B576D1345931 /* Brief.xcconfig */,
+				FBCC72F531277E0DA2909BA4E8A62610 /* Brief-Private.xcconfig */,
+				962A6476680D90CFF0C2A07A26B73B29 /* Brief-dummy.m */,
+				E646CA56C8E461ABEFCB2B330E473B24 /* Brief-prefix.pch */,
+				7BC06FF3882821E1A44F9C2B6B132C2F /* Brief-umbrella.h */,
+				70AE8E92D5121022DF0AF0E351A723EE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Brief";
+			sourceTree = "<group>";
+		};
+		4E0A5E79EEA4DC12DE19147E15F87D55 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8573839C72A156EED15146501A570C3 /* A3ParallaxScrollView.modulemap */,
+				7695DA4300D3F8DB09389A3305A19A7F /* A3ParallaxScrollView.xcconfig */,
+				656DC1476121E31159368C3F6C2D9DFE /* A3ParallaxScrollView-Private.xcconfig */,
+				39A8AE833801F8DAD66F9914F3013578 /* A3ParallaxScrollView-dummy.m */,
+				6D23B61E9B8C8E59EFF17F03F69DE47A /* A3ParallaxScrollView-prefix.pch */,
+				A5E2748668779D598B80A15B22A2A829 /* A3ParallaxScrollView-umbrella.h */,
+				10C18A38369AA51370D921CDBAEF4AEE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/A3ParallaxScrollView";
+			sourceTree = "<group>";
+		};
+		5673A7B9CB3DA1EB1E8E7E365F71AB5A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2C676898A8FBE153B5C854B04F97CB7 /* AYSource.swift */,
+				6EB9DD44D55294EE79E93CF0A0270603 /* AYUICollectionViewCell.swift */,
+				576DA021FBFEF841332C0D73F5EE98D1 /* CALayer.swift */,
+				E1E96394950E0F76083437D075DB76B0 /* CAShapeLayer.swift */,
+				E1DC1723F6CF48AE3F5DE34E96A03EAC /* ReplaceMe.swift */,
+				D637CD08F1124F84684508A17AD2588D /* UIBezierPath.swift */,
+				A068EBD0FECDDED939D2304BD6C31962 /* UILayerView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		68795B81F0227D82F25899CE63B9E4BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8DF5124DCA6F23F7290107247A00795 /* ALItem.swift */,
+				174C05A188AECAECD85C4429419DC170 /* ALSource.swift */,
+				E2FAF12A7B681883C217723FE9620F7E /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				895104A01DAF782837543B251E7E76F8 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				3E99EB508DBAD6E988A5C89F52E31528 /* Pods-umbrella.h */,
+				36372D6A7EE64C99A028D9067615A7C8 /* Pods.debug.xcconfig */,
+				15F11A8FF36DE65273BE0D8339BADBDC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		770B808B0863668F97B7E4D2958D5D70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BD266D68DE2E80BE477EFC856934C95 /* AYSwift.modulemap */,
+				FFD09C95BF901D86518D942774DAB2DF /* AYSwift.xcconfig */,
+				77B4412F2F70321ECAD81960EB251BCF /* AYSwift-Private.xcconfig */,
+				6F190A11B230719D7BCDA95B564308EC /* AYSwift-dummy.m */,
+				4A04AC720FEE2E67E065653BC5CF7CC4 /* AYSwift-prefix.pch */,
+				684A0C26681F27B5E26FEB64E9C4F7C3 /* AYSwift-umbrella.h */,
+				E97631D61DC00BC5627E65CCECFA7F7F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../alfred/grocery/Pods/Target Support Files/AYSwift";
+			sourceTree = "<group>";
+		};
+		7B09389B116F37A2C2BCD03703D6405E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E6CA7ED362BF6EBE16AF84549F0A94D /* ALSwift.modulemap */,
+				603DCB4EA78A43006660E3A7A9255EC1 /* ALSwift.xcconfig */,
+				013F5C5BDEBEDF7F11A7A1FF16183F57 /* ALSwift-Private.xcconfig */,
+				BD7A336BA4F37E5C48800BA1EB6D1323 /* ALSwift-dummy.m */,
+				91060D3A6CA0E1D6586014DAC7F450B2 /* ALSwift-prefix.pch */,
+				F214ED77944820EAD0E9D61825653497 /* ALSwift-umbrella.h */,
+				1C2A1B44D1F6187E7227189295D9956D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../alfred/grocery/Pods/Target Support Files/ALSwift";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				33E897563196ADE399D6ADE70C7547DC /* Development Pods */,
+				C2C920AD23984646125D4CB5E2D85E4F /* Frameworks */,
+				14C3993B6442CD7577A61A0182DC2797 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F5355778316EFD29059DB1C5EE6F021 /* AYKit */ = {
+			isa = PBXGroup;
+			children = (
+				0DA1ADFB843C17891948EB41A15E783C /* Pod */,
+				E50D26608C09E96FC1457CA801A28647 /* Support Files */,
+			);
+			name = AYKit;
+			path = /Users/dpostigo/Development/cocoapods/AYKit;
+			sourceTree = "<absolute>";
+		};
+		A5B289AD2728833A47A20B571AF2833B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FB8BC47F9C1934B3A43A7AECE741F66 /* Info.plist */,
+				96675198E53193E59C0A699F6EB2FC75 /* PocketSVG.modulemap */,
+				C50D8BDCA8D4166736077A95FF50E5C6 /* PocketSVG.xcconfig */,
+				B79215F6E29BF604CF14F22AE0BB75AD /* PocketSVG-Private.xcconfig */,
+				9E3FDF961A9DE6452CD17C601F6A6AFC /* PocketSVG-dummy.m */,
+				2B92A6EF8369C05FED96686535C86E66 /* PocketSVG-prefix.pch */,
+				2FC9723605CC60C20745CC0A95BB6EB5 /* PocketSVG-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PocketSVG";
+			sourceTree = "<group>";
+		};
+		AC7759FAA966EA711006ACDA92020AD8 /* UIBezierPath+DSL */ = {
+			isa = PBXGroup;
+			children = (
+				034CBD6A178D32B25F721BA38EDC2384 /* UIBezierPath+DSL.h */,
+				ECB224297BAC2B24130D52B550F5B3CC /* UIBezierPath+DSL.m */,
+				0146704BA8F2F926886E259A6C6B7B58 /* Support Files */,
+			);
+			path = "UIBezierPath+DSL";
+			sourceTree = "<group>";
+		};
+		B2FD6A8C440A563D570998B4E1A51008 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE1F58DE94242FA379F9E7AF5B68DF3E /* CoreGraphics.framework */,
+				4132391D687507E2BFE7B5BFCCD1C6B5 /* Foundation.framework */,
+				E144CFC0F6940C4721C7EEDCCAD31F58 /* QuartzCore.framework */,
+				FC7769A5B3A8C1C71E82C6A83BD40DE7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF473D670C1B770CB6B76D7CA2323C6D /* A3ParallaxScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AFB1CF09760ADD1FC7C326FC0C443 /* A3ParallaxScrollView.h */,
+				B161E169A2780DF46094971263CAB875 /* A3ParallaxScrollView.m */,
+				4E0A5E79EEA4DC12DE19147E15F87D55 /* Support Files */,
+			);
+			path = A3ParallaxScrollView;
+			sourceTree = "<group>";
+		};
+		C2C920AD23984646125D4CB5E2D85E4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6761877BF1A5B9228E12F0D4A2F24763 /* AYSwift.framework */,
+				F63254E057828C4588AC2EA2FCD45BFD /* Brief.framework */,
+				B2FD6A8C440A563D570998B4E1A51008 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6349F879EDDD21E4EB79E2F6CA6C094B /* A3ParallaxScrollView.framework */,
+				9926B5B99F6E0DBDA4134112D2C59701 /* ALSwift.bundle */,
+				E2FF4470FC6B678E2112D4B803E4E5E0 /* ALSwift.framework */,
+				7DD4AF016B92095413D1683BEA74D450 /* AYKit.bundle */,
+				6DA1EB7D1EF8A121FA9390CA95C48EA1 /* AYKit.framework */,
+				C00836063132E39627D78F6945796280 /* AYSwift.bundle */,
+				89EB1A89BDD1A6F469B0F788B22797D9 /* AYSwift.framework */,
+				FEF717AFDACD7475101F22814F0536DF /* Brief.framework */,
+				7C1152FEF84979D22BFA1FB5F4C40496 /* PocketSVG.framework */,
+				8B021FDAD0A396A20047F776496EE77C /* Pods.framework */,
+				E70BA78FE145CB50A9231833C1A7A367 /* UIBezierPath_DSL.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE56C26052D5EBB96F11861E0BB0D69 /* AYSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3B1F9C5E2C118993D907DF1241E6DAD0 /* Pod */,
+				770B808B0863668F97B7E4D2958D5D70 /* Support Files */,
+			);
+			name = AYSwift;
+			path = /Users/dpostigo/cocoapods/AYSwift;
+			sourceTree = "<absolute>";
+		};
+		DE2D79F68AE4F90B9F921B6A8A9EFA81 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7736C28E50E20E07E81E84317D422970 /* AYUICollectionViewCell.h */,
+				6064BA571181A0DB9EC5C5051DAA2C46 /* AYUICollectionViewCell.m */,
+				E66628CBEE6EC02944053DD9A5460ED4 /* UIView+AYKit.h */,
+				9BF9F818F338CA736403560DBDAA59EC /* UIView+AYKit.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E317B2B1AB834B1A3C60855446058AC0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				68795B81F0227D82F25899CE63B9E4BF /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		E50D26608C09E96FC1457CA801A28647 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2F8C573686B3ABD7C1980BD8FC3228A /* AYKit.modulemap */,
+				192E773BBC30B1684A25AA2673849D43 /* AYKit.xcconfig */,
+				03AD570E8C251F235CEEDC55F4DAEFA8 /* AYKit-Private.xcconfig */,
+				1E4330030FC189BF24151199DDCD96E7 /* AYKit-dummy.m */,
+				2B6FC7C0742ED4E24A640C3E6DC6AB96 /* AYKit-prefix.pch */,
+				1503CC92248EC12C1B6CF809EAEC0A40 /* AYKit-umbrella.h */,
+				5F4824BFE43D0056FD7012917B9E17B6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../../alfred/grocery/Pods/Target Support Files/AYKit";
+			sourceTree = "<group>";
+		};
+		FAA2188600899F17ABB36EEECE3B2B96 /* ALSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E317B2B1AB834B1A3C60855446058AC0 /* Pod */,
+				7B09389B116F37A2C2BCD03703D6405E /* Support Files */,
+			);
+			name = ALSwift;
+			path = /Users/dpostigo/cocoapods/ALSwift;
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D881FD3A86F2EA9B978DCE41F0B2426 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D3CC988BE7BF57D2A9A0DE79B2711F /* UIBezierPath+DSL-umbrella.h in Headers */,
+				6E6FDA8F53D983148B69666E1BF7BC4D /* UIBezierPath+DSL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E669D75EE1804246A7F0A21C65A006 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47CB98E94E458435FE1487963577716 /* AYSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA00429CE635A02EB23FDA67D8C40A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D1EC283D3F4A93DEEBBC2A9ED91BF2 /* PocketSVG-umbrella.h in Headers */,
+				F6B400A3C48363AEA61DF50493FD2FFB /* PocketSVG.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3F7C96B38A3CFCEBA14344941A879D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467FE46BB2847678FC875A102E940E2B /* AYKit-umbrella.h in Headers */,
+				4BDF7540C3655BE4C6D53CA2AE03683F /* AYUICollectionViewCell.h in Headers */,
+				C50EADA3827D6E59BC8770E5DCBD4D69 /* UIView+AYKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9E58E3DC0404E2B40D9327FF5363F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9616638F0A04CC32F6630FA79A9D9EA3 /* A3ParallaxScrollView-umbrella.h in Headers */,
+				D92D9E568C1F3051B29285A4AF44408B /* A3ParallaxScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A1E0745AA0E4EFECAFD2B7C3C0B1C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564BDA00C643966FE8C51FE7F3118827 /* ALSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C720A2B01A1A472215E79F76E86B26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECAABC6E040AFB96B18988B9CFC94EA /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F608F8866E8BAD900C19BA900ED100EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4617BBC4AF73F6292D0881CE0173E87 /* Brief-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A3F65773BEA09AE7F1E420AA7860671 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2819980363DC58CDADC26AB46B76CB61 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				87C5B6B6AFC0BF5691A0A9F7F67374CA /* Sources */,
+				0FB302103FA855FA34523787E396668B /* Frameworks */,
+				E7C720A2B01A1A472215E79F76E86B26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF91F67D20480B3628D23DC689E0753 /* PBXTargetDependency */,
+				A85179C751DBEF057D1FA6781A0E4063 /* PBXTargetDependency */,
+				2CC2E0FC32421D31C396A50B267C188A /* PBXTargetDependency */,
+				D51F03B9D6FE1467BAB9EEEBAD05F52F /* PBXTargetDependency */,
+				8F42ABE2444192A7E1A959D3C0F0F1D1 /* PBXTargetDependency */,
+				25361BC8C9CDA5ED788B948768B8E216 /* PBXTargetDependency */,
+				83B6B45292FAA819927CC62513F9759C /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 8B021FDAD0A396A20047F776496EE77C /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0D4139C68BC0C1E7A2EC275BAA15C226 /* A3ParallaxScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564867B04A35C454B772B882101BDAFA /* Build configuration list for PBXNativeTarget "A3ParallaxScrollView" */;
+			buildPhases = (
+				27E7A650FB576C26A142A020F52DF992 /* Sources */,
+				8A42CD599F0E805BB06DE3074429E9E6 /* Frameworks */,
+				DB9E58E3DC0404E2B40D9327FF5363F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = A3ParallaxScrollView;
+			productName = A3ParallaxScrollView;
+			productReference = 6349F879EDDD21E4EB79E2F6CA6C094B /* A3ParallaxScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		396A19DC2FBC4D17862C1B320BA7A7C8 /* ALSwift-ALSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A172F28170744FFA2979906EF4AE26 /* Build configuration list for PBXNativeTarget "ALSwift-ALSwift" */;
+			buildPhases = (
+				66C5F1B84444974416B27251E0D6E954 /* Sources */,
+				CF2D8315888BC7439F8A422DBE0E3E49 /* Frameworks */,
+				B880DDF48D2AC95551F22EA9F736CB09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ALSwift-ALSwift";
+			productName = "ALSwift-ALSwift";
+			productReference = 9926B5B99F6E0DBDA4134112D2C59701 /* ALSwift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4832ED19215BDC132F977EAC817D2568 /* AYKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C5A8581F1F013622A1C89BA32733B8 /* Build configuration list for PBXNativeTarget "AYKit" */;
+			buildPhases = (
+				985107D89F82B0F8ED7881A99B75B29C /* Sources */,
+				C796119EEF3975645F6F314F9628F8DF /* Frameworks */,
+				2AB3AB120B95B40DF976AF9895157E07 /* Resources */,
+				8F3F7C96B38A3CFCEBA14344941A879D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EEBB86B7A4A434D51F2B0F9F8C7A36 /* PBXTargetDependency */,
+			);
+			name = AYKit;
+			productName = AYKit;
+			productReference = 6DA1EB7D1EF8A121FA9390CA95C48EA1 /* AYKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CF3A1EFADDDE4D4E7BE4EFF3000B0F5 /* UIBezierPath+DSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E67D8EC5210EC444B7B36E0ABC6CA541 /* Build configuration list for PBXNativeTarget "UIBezierPath+DSL" */;
+			buildPhases = (
+				D2822B29294FBF740F3EFE1FCFAE798E /* Sources */,
+				60F0E2F7C118933E94FD8CF48EFDAA43 /* Frameworks */,
+				4D881FD3A86F2EA9B978DCE41F0B2426 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIBezierPath+DSL";
+			productName = "UIBezierPath+DSL";
+			productReference = E70BA78FE145CB50A9231833C1A7A367 /* UIBezierPath_DSL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E5DC53611B9C498742E2E04AD187576 /* PocketSVG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB69F05E48EC4CF96C7DAE4FFCF9991C /* Build configuration list for PBXNativeTarget "PocketSVG" */;
+			buildPhases = (
+				C2CF3A0C1C1E51260AE6EACD92111DF0 /* Sources */,
+				52B08A1EAE774118439BB8D52036F0C9 /* Frameworks */,
+				6BA00429CE635A02EB23FDA67D8C40A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketSVG;
+			productName = PocketSVG;
+			productReference = 7C1152FEF84979D22BFA1FB5F4C40496 /* PocketSVG.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77872BD581288B7F9397AB821901E1EE /* AYKit-AYKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B77F62ED239074E853DED416A5442B /* Build configuration list for PBXNativeTarget "AYKit-AYKit" */;
+			buildPhases = (
+				6B779A2ECC5D07C0AF13750E05C793CE /* Sources */,
+				30D248A1974E576FE01089E6585E28B1 /* Frameworks */,
+				C31583843E69C1C0F91C4A469C80A5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AYKit-AYKit";
+			productName = "AYKit-AYKit";
+			productReference = 7DD4AF016B92095413D1683BEA74D450 /* AYKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		78661BAA6F59FC4A78C79BFA999FF778 /* ALSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F29A9D814B0411EF0EC31DB8C8DCE08 /* Build configuration list for PBXNativeTarget "ALSwift" */;
+			buildPhases = (
+				F8C6FB23BE741B02A762B842F9C910A2 /* Sources */,
+				796E0E866BA0A79303199DACD89EB6E9 /* Frameworks */,
+				FFE7B1610FE241F2AAE3FFBDFE590DA5 /* Resources */,
+				E5A1E0745AA0E4EFECAFD2B7C3C0B1C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB75454D25E2E76CBD1A612B1297C0BE /* PBXTargetDependency */,
+				C21E9A113D7437CFBE1F99AB71875FEF /* PBXTargetDependency */,
+			);
+			name = ALSwift;
+			productName = ALSwift;
+			productReference = E2FF4470FC6B678E2112D4B803E4E5E0 /* ALSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0375EBA0B8BC19C197C1895BD407E7C /* AYSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18745225B0D3E6D8057AD42D23346AB3 /* Build configuration list for PBXNativeTarget "AYSwift" */;
+			buildPhases = (
+				9C020ED99C9F4250EDBFA4691BB3643C /* Sources */,
+				E868078E813556B0A4344A8E1CB2672A /* Frameworks */,
+				74338B911B85EDBF8894D90D8EA09667 /* Resources */,
+				68E669D75EE1804246A7F0A21C65A006 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF4EDB0BA08F6D8C43CFA8A4867E6E4 /* PBXTargetDependency */,
+				062C1B48E8BD8F2620D5E069AF07E387 /* PBXTargetDependency */,
+			);
+			name = AYSwift;
+			productName = AYSwift;
+			productReference = 89EB1A89BDD1A6F469B0F788B22797D9 /* AYSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B06D788187A9943B0008C6B7A4A394EA /* AYSwift-AYSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFBCD0AB1762B094C3A9EE34493A014 /* Build configuration list for PBXNativeTarget "AYSwift-AYSwift" */;
+			buildPhases = (
+				991561F823BE48B07BA5CF0C0BE3239E /* Sources */,
+				B41C3822C7D7117372391C08097411CF /* Frameworks */,
+				55DC6DCAACEFF7B8128DCDC4CA6275D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AYSwift-AYSwift";
+			productName = "AYSwift-AYSwift";
+			productReference = C00836063132E39627D78F6945796280 /* AYSwift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C876C7AF8C5D33FA25FF56878B02DE19 /* Brief */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9BFF0FF99DE26D61D3E813F4D12B8F /* Build configuration list for PBXNativeTarget "Brief" */;
+			buildPhases = (
+				C4E5322CBD8AFFEF1D7216FE3FC1168C /* Sources */,
+				89D1D84FC9D389645FCF316A251F318D /* Frameworks */,
+				F608F8866E8BAD900C19BA900ED100EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brief;
+			productName = Brief;
+			productReference = FEF717AFDACD7475101F22814F0536DF /* Brief.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D4139C68BC0C1E7A2EC275BAA15C226 /* A3ParallaxScrollView */,
+				78661BAA6F59FC4A78C79BFA999FF778 /* ALSwift */,
+				396A19DC2FBC4D17862C1B320BA7A7C8 /* ALSwift-ALSwift */,
+				4832ED19215BDC132F977EAC817D2568 /* AYKit */,
+				77872BD581288B7F9397AB821901E1EE /* AYKit-AYKit */,
+				B0375EBA0B8BC19C197C1895BD407E7C /* AYSwift */,
+				B06D788187A9943B0008C6B7A4A394EA /* AYSwift-AYSwift */,
+				C876C7AF8C5D33FA25FF56878B02DE19 /* Brief */,
+				5E5DC53611B9C498742E2E04AD187576 /* PocketSVG */,
+				0A3F65773BEA09AE7F1E420AA7860671 /* Pods */,
+				5CF3A1EFADDDE4D4E7BE4EFF3000B0F5 /* UIBezierPath+DSL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB3AB120B95B40DF976AF9895157E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB77EE7BA6BEB3B4A4D95B2C110196A7 /* AYKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC6DCAACEFF7B8128DCDC4CA6275D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74338B911B85EDBF8894D90D8EA09667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA257524B2D2BA87145F94537B52195B /* AYSwift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B880DDF48D2AC95551F22EA9F736CB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31583843E69C1C0F91C4A469C80A5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE7B1610FE241F2AAE3FFBDFE590DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669539557128D8BEC04E5C93815D50EB /* ALSwift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E7A650FB576C26A142A020F52DF992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38CC8AD6D647A405A3CF22B74B822A4 /* A3ParallaxScrollView-dummy.m in Sources */,
+				49A6D38FE59E6BEDFE156542B493B19A /* A3ParallaxScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5F1B84444974416B27251E0D6E954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B779A2ECC5D07C0AF13750E05C793CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C5B6B6AFC0BF5691A0A9F7F67374CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B668B0FAADB7C513DD32470FE057A60 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985107D89F82B0F8ED7881A99B75B29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F0DEEAF26DE16BBA3BAD1B98F58B43 /* AYKit-dummy.m in Sources */,
+				04B3F89490DC574580A4947751FD5228 /* AYUICollectionViewCell.m in Sources */,
+				690FF751A18EBC9681677511AD80C9FE /* UIView+AYKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991561F823BE48B07BA5CF0C0BE3239E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C020ED99C9F4250EDBFA4691BB3643C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E41C26424ECC220807CA880C9F33B27 /* AYSource.swift in Sources */,
+				261105E6849935205A250A6CB279B5B0 /* AYSwift-dummy.m in Sources */,
+				EEDA6DA0CC4F7915FDDBC4492B62A883 /* AYUICollectionViewCell.swift in Sources */,
+				6B317DB473DE9907E446F5ABE4D2FB89 /* CALayer.swift in Sources */,
+				558F4FD022216F7185B574130117BA0B /* CAShapeLayer.swift in Sources */,
+				589D9537090AA78D1E14E2D88737C192 /* ReplaceMe.swift in Sources */,
+				6148857CC57E9985522CFED81AE16324 /* UIBezierPath.swift in Sources */,
+				CF1BAF16739DEEBBA6E02766D545593D /* UILayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CF3A0C1C1E51260AE6EACD92111DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB875CB051CC37C13530C85C1960112 /* PocketSVG-dummy.m in Sources */,
+				2F3B67EF87C65BEF5C518EF3AEF15CEC /* PocketSVG.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E5322CBD8AFFEF1D7216FE3FC1168C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208E8C1898439ADB2FE441173E70D6EA /* Brief-dummy.m in Sources */,
+				6EC6BA08C8DF7E4F8F5D5DE94B602866 /* Brief.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2822B29294FBF740F3EFE1FCFAE798E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D421389BA0ED949D9649CDED3D12BE /* UIBezierPath+DSL-dummy.m in Sources */,
+				C6E7377D5F301DFF534A80E93BF35606 /* UIBezierPath+DSL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C6FB23BE741B02A762B842F9C910A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7121B985979487A085BB2463FDBE8097 /* ALItem.swift in Sources */,
+				86A461F6C07E62687DCCE676F80FB2F8 /* ALSource.swift in Sources */,
+				574463BA148626DF3D37C2BFE003FBD2 /* ALSwift-dummy.m in Sources */,
+				D4C0EEAAB21C894DD86836768E832B81 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		062C1B48E8BD8F2620D5E069AF07E387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Brief;
+			target = C876C7AF8C5D33FA25FF56878B02DE19 /* Brief */;
+			targetProxy = E113131BD26B3A5306D3A2937861DADA /* PBXContainerItemProxy */;
+		};
+		25361BC8C9CDA5ED788B948768B8E216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PocketSVG;
+			target = 5E5DC53611B9C498742E2E04AD187576 /* PocketSVG */;
+			targetProxy = 726A7E5E4BA1E0530B240E6CBAF0170A /* PBXContainerItemProxy */;
+		};
+		2CC2E0FC32421D31C396A50B267C188A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYKit;
+			target = 4832ED19215BDC132F977EAC817D2568 /* AYKit */;
+			targetProxy = 9F159DCB8F6C2FDC2D1E156DF26BC645 /* PBXContainerItemProxy */;
+		};
+		4BF91F67D20480B3628D23DC689E0753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = A3ParallaxScrollView;
+			target = 0D4139C68BC0C1E7A2EC275BAA15C226 /* A3ParallaxScrollView */;
+			targetProxy = DFEB42E9B834CC7D089DD07D57093705 /* PBXContainerItemProxy */;
+		};
+		83B6B45292FAA819927CC62513F9759C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIBezierPath+DSL";
+			target = 5CF3A1EFADDDE4D4E7BE4EFF3000B0F5 /* UIBezierPath+DSL */;
+			targetProxy = C11B2856BBA2C63FA5AF81FA2D083869 /* PBXContainerItemProxy */;
+		};
+		8F42ABE2444192A7E1A959D3C0F0F1D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Brief;
+			target = C876C7AF8C5D33FA25FF56878B02DE19 /* Brief */;
+			targetProxy = 45245CA72BC974FE243C32E3B29FEE29 /* PBXContainerItemProxy */;
+		};
+		A85179C751DBEF057D1FA6781A0E4063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALSwift;
+			target = 78661BAA6F59FC4A78C79BFA999FF778 /* ALSwift */;
+			targetProxy = BBE1C0D943C94B84F4A0204CDFA01082 /* PBXContainerItemProxy */;
+		};
+		BAF4EDB0BA08F6D8C43CFA8A4867E6E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AYSwift-AYSwift";
+			target = B06D788187A9943B0008C6B7A4A394EA /* AYSwift-AYSwift */;
+			targetProxy = 083287CCD9EE802F25530768631069C2 /* PBXContainerItemProxy */;
+		};
+		BB75454D25E2E76CBD1A612B1297C0BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ALSwift-ALSwift";
+			target = 396A19DC2FBC4D17862C1B320BA7A7C8 /* ALSwift-ALSwift */;
+			targetProxy = B735518DB5C52CF385C43E9F534FE428 /* PBXContainerItemProxy */;
+		};
+		C21E9A113D7437CFBE1F99AB71875FEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYSwift;
+			target = B0375EBA0B8BC19C197C1895BD407E7C /* AYSwift */;
+			targetProxy = 4F3D8394E3D222A82DE273A5A86031BE /* PBXContainerItemProxy */;
+		};
+		C4EEBB86B7A4A434D51F2B0F9F8C7A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AYKit-AYKit";
+			target = 77872BD581288B7F9397AB821901E1EE /* AYKit-AYKit */;
+			targetProxy = AB101389896401932FAC73CD0193005F /* PBXContainerItemProxy */;
+		};
+		D51F03B9D6FE1467BAB9EEEBAD05F52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYSwift;
+			target = B0375EBA0B8BC19C197C1895BD407E7C /* AYSwift */;
+			targetProxy = E2C0632EE3FACCB0656CF910C03BA3CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23A41FC1AB0CB9FD7C52B713CE6B12C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79215F6E29BF604CF14F22AE0BB75AD /* PocketSVG-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.6.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.6.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PocketSVG/PocketSVG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PocketSVG/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PocketSVG/PocketSVG.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PocketSVG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		281093B50F2F65345B10A320B69CA119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD5125F6DBCED85313D237CB3C1A558 /* UIBezierPath+DSL-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIBezierPath+DSL/UIBezierPath+DSL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIBezierPath+DSL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIBezierPath+DSL/UIBezierPath+DSL.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIBezierPath_DSL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37E8C606D72581EBF47CC66316895BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79215F6E29BF604CF14F22AE0BB75AD /* PocketSVG-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.6.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.6.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PocketSVG/PocketSVG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PocketSVG/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PocketSVG/PocketSVG.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PocketSVG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4378FDDC0D15487FA6EB6CDF3EDDB4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013F5C5BDEBEDF7F11A7A1FF16183F57 /* ALSwift-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALSwift/ALSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALSwift/ALSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ALSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		506C526B761EA49F9788D3D93221720D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013F5C5BDEBEDF7F11A7A1FF16183F57 /* ALSwift-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ALSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		733A676991F9B2898C9D750DCE50F5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013F5C5BDEBEDF7F11A7A1FF16183F57 /* ALSwift-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALSwift/ALSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALSwift/ALSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ALSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C666322320942D7A07C54A4D5504B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD5125F6DBCED85313D237CB3C1A558 /* UIBezierPath+DSL-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIBezierPath+DSL/UIBezierPath+DSL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIBezierPath+DSL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIBezierPath+DSL/UIBezierPath+DSL.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIBezierPath_DSL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99B3122135D41B57C72A9B8BF2C8C17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B4412F2F70321ECAD81960EB251BCF /* AYSwift-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AYSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7E70DE882E717CCEE2D33C85BCDCCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B4412F2F70321ECAD81960EB251BCF /* AYSwift-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AYSwift/AYSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYSwift/AYSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AYSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDE3F621D103DE6E2FC62EEFDA865875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656DC1476121E31159368C3F6C2D9DFE /* A3ParallaxScrollView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/A3ParallaxScrollView/A3ParallaxScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/A3ParallaxScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/A3ParallaxScrollView/A3ParallaxScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = A3ParallaxScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9AF2C05259AAF57988AFD7A9E6908A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013F5C5BDEBEDF7F11A7A1FF16183F57 /* ALSwift-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ALSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CE348DB75C01DA5C2EBFB8FCB077BDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656DC1476121E31159368C3F6C2D9DFE /* A3ParallaxScrollView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/A3ParallaxScrollView/A3ParallaxScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/A3ParallaxScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/A3ParallaxScrollView/A3ParallaxScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = A3ParallaxScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE919B2B1B4AC6466260D7D2697A0D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AD570E8C251F235CEEDC55F4DAEFA8 /* AYKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AYKit/AYKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYKit/AYKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AYKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBE1CB3D2048071D4109D4C31A9DDF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AD570E8C251F235CEEDC55F4DAEFA8 /* AYKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AYKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DF870538D0540758CDEEBDB7880E1A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AD570E8C251F235CEEDC55F4DAEFA8 /* AYKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AYKit/AYKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYKit/AYKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AYKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E22F10F87D5C05A5E9D43D2F03923E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AD570E8C251F235CEEDC55F4DAEFA8 /* AYKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AYKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E5439BDDF795956C145D0B42AA63528B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B4412F2F70321ECAD81960EB251BCF /* AYSwift-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AYSwift/AYSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYSwift/AYSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AYSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8D38B66B3B5505E4D8EA7CBB8A695BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCC72F531277E0DA2909BA4E8A62610 /* Brief-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Brief/Brief-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Brief/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Brief/Brief.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Brief;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED30A96674ED78EDCD65EC732C4AE28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCC72F531277E0DA2909BA4E8A62610 /* Brief-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Brief/Brief-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Brief/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Brief/Brief.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Brief;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F239A3EB7DA01219F676AD1654989410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36372D6A7EE64C99A028D9067615A7C8 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F994ACF3F86A1E663014B6BF5DAD23B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F11A8FF36DE65273BE0D8339BADBDC /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE4513901B374FE1A0AE68795C1CAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B4412F2F70321ECAD81960EB251BCF /* AYSwift-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AYSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A172F28170744FFA2979906EF4AE26 /* Build configuration list for PBXNativeTarget "ALSwift-ALSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506C526B761EA49F9788D3D93221720D /* Debug */,
+				C9AF2C05259AAF57988AFD7A9E6908A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18745225B0D3E6D8057AD42D23346AB3 /* Build configuration list for PBXNativeTarget "AYSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5439BDDF795956C145D0B42AA63528B /* Debug */,
+				B7E70DE882E717CCEE2D33C85BCDCCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2819980363DC58CDADC26AB46B76CB61 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F239A3EB7DA01219F676AD1654989410 /* Debug */,
+				F994ACF3F86A1E663014B6BF5DAD23B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F29A9D814B0411EF0EC31DB8C8DCE08 /* Build configuration list for PBXNativeTarget "ALSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4378FDDC0D15487FA6EB6CDF3EDDB4A2 /* Debug */,
+				733A676991F9B2898C9D750DCE50F5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36B77F62ED239074E853DED416A5442B /* Build configuration list for PBXNativeTarget "AYKit-AYKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE1CB3D2048071D4109D4C31A9DDF98 /* Debug */,
+				E22F10F87D5C05A5E9D43D2F03923E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFBCD0AB1762B094C3A9EE34493A014 /* Build configuration list for PBXNativeTarget "AYSwift-AYSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE4513901B374FE1A0AE68795C1CAE4 /* Debug */,
+				99B3122135D41B57C72A9B8BF2C8C17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564867B04A35C454B772B882101BDAFA /* Build configuration list for PBXNativeTarget "A3ParallaxScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE348DB75C01DA5C2EBFB8FCB077BDE6 /* Debug */,
+				BDE3F621D103DE6E2FC62EEFDA865875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C5A8581F1F013622A1C89BA32733B8 /* Build configuration list for PBXNativeTarget "AYKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE919B2B1B4AC6466260D7D2697A0D24 /* Debug */,
+				DF870538D0540758CDEEBDB7880E1A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB69F05E48EC4CF96C7DAE4FFCF9991C /* Build configuration list for PBXNativeTarget "PocketSVG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E8C606D72581EBF47CC66316895BE2 /* Debug */,
+				23A41FC1AB0CB9FD7C52B713CE6B12C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E67D8EC5210EC444B7B36E0ABC6CA541 /* Build configuration list for PBXNativeTarget "UIBezierPath+DSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281093B50F2F65345B10A320B69CA119 /* Debug */,
+				7C666322320942D7A07C54A4D5504B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9BFF0FF99DE26D61D3E813F4D12B8F /* Build configuration list for PBXNativeTarget "Brief" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D38B66B3B5505E4D8EA7CBB8A695BD /* Debug */,
+				ED30A96674ED78EDCD65EC732C4AE28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

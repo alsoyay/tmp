@@ -1,0 +1,6 @@
+framework module ALSwift {
+  umbrella header "ALSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

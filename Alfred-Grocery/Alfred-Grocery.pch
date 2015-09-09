@@ -1,0 +1,19 @@
+//
+//  Alfred-Grocery.pch
+//  Alfred-Grocery
+//
+//  Created by Daniela Postigo on 9/6/15.
+//  Copyright (c) 2015 Daniela Postigo. All rights reserved.
+//
+
+#ifndef Alfred_Grocery_Alfred_Grocery_pch
+#define Alfred_Grocery_Alfred_Grocery_pch
+
+
+#import <UIKit/UIKit.h>
+#import "AYSwift/AYSwift-umbrella.h"
+#import "ALSwift/ALSwift-umbrella.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

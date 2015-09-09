@@ -1,0 +1,6 @@
+framework module AYKit {
+  umbrella header "AYKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
