@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "78661BAA6F59FC4A78C79BFA999FF778"
+               BlueprintIdentifier = "33CC34559D58F37125245D29287D31D9"
                BuildableName = "ALSwift.framework"
                BlueprintName = "ALSwift"
                ReferencedContainer = "container:Pods.xcodeproj">

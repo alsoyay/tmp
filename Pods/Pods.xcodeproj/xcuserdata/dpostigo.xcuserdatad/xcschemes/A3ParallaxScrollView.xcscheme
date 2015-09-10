@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0D4139C68BC0C1E7A2EC275BAA15C226"
+               BlueprintIdentifier = "6F8913E9045637FD0E9EF15A7D532032"
                BuildableName = "A3ParallaxScrollView.framework"
                BlueprintName = "A3ParallaxScrollView"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -24,12 +24,10 @@
 - (CGFloat) tableView: (UITableView *)tableView heightForRowAtIndexPath: (NSIndexPath *)indexPath {
     CGFloat ret = [super tableView: tableView heightForRowAtIndexPath: indexPath];
 
-    NSLog(@"ret = %f", ret);
     if (indexPath.section > 0) {
 //        ret = UITableViewAutomaticDimension;
 
         CGFloat headerHeight = tableView.rowHeight;
-        NSLog(@"headerHeight = %f", headerHeight);
 
         CGFloat contentHeight = tableView.frame.size.height - headerHeight;
         ret = contentHeight;

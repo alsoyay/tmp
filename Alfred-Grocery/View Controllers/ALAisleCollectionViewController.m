@@ -43,7 +43,6 @@
     imageView.layer.cornerRadius = imageView.bounds.size.width / 5;
 
 
-    NSLog(@"imageView.frame.size.width = %f", imageView.frame.size.width);
 //    [ret.imageView addDebugBorderWithColor: nil];
     return ret;
 

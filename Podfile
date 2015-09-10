@@ -16,3 +16,7 @@ pod 'AYSwift', :path => '~/cocoapods/AYSwift'
 pod 'ALSwift', :path => '~/cocoapods/ALSwift'
 
 pod 'AYKit', :path => '~/Development/cocoapods/AYKit'
+
+
+pod 'Fabric'
+pod 'Crashlytics'

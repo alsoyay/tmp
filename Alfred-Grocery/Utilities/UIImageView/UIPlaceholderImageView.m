@@ -19,7 +19,6 @@
     CGPathRef myPath = [PocketSVG pathFromSVGFileNamed: @"placeholder-image"];
 
 
-    NSLog(@"myPath = %p", myPath);
 //2: To display it on screen, you can create a CAShapeLayer
 //and set myPath as its path property:
     CAShapeLayer *myShapeLayer = [CAShapeLayer layer];

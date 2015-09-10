@@ -6,6 +6,10 @@ PODS:
   - AYSwift (0.1.0):
     - Brief
   - Brief (0.1.0)
+  - Crashlytics (3.2.0)
+  - Fabric (1.4.1):
+    - Fabric/Base (= 1.4.1)
+  - Fabric/Base (1.4.1)
   - PocketSVG (0.6)
   - UIBezierPath+DSL (0.1.1)
 
@@ -15,6 +19,8 @@ DEPENDENCIES:
   - AYKit (from `~/Development/cocoapods/AYKit`)
   - AYSwift (from `~/cocoapods/AYSwift`)
   - Brief
+  - Crashlytics
+  - Fabric
   - PocketSVG
   - UIBezierPath+DSL
 
@@ -32,6 +38,8 @@ SPEC CHECKSUMS:
   AYKit: 7125fc49de7c16d417ff5ea1fbf8bfa96cbb73e2
   AYSwift: 70c01849b4ea76a388fe0d85e5f8a2751fcdd38e
   Brief: 8ac8d309cfe03f68f3025d49d7bc96fd9845fd78
+  Crashlytics: a29e4f820aa401482b26043dc5d78adf08ac7573
+  Fabric: 4f718eeca4c02c7d6f6f4e5f0e5f87c63aa38458
   PocketSVG: cf122986a895bf81e8e2349e81350df51a9c6970
   UIBezierPath+DSL: a191416ee0bc3be853fdde7a4def36b93a8d2312
 

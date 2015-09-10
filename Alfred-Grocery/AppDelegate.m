@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "QuickModel.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
 
 @interface AppDelegate ()
 
@@ -19,6 +21,7 @@
 
 - (BOOL) application: (UIApplication *)application didFinishLaunchingWithOptions: (NSDictionary *)launchOptions {
     // Override point for customization after application launch
+    [Fabric with: @[[Crashlytics class]]];
 
 //    NSArray *items = @[
 //            [ALGroceryItem itemWithName: @"Blue tortilla chips" extendedName: @"Garden of Eatin' Organic Blue Corn Tortilla Chips" quantity: 1 occurrence: ALItemTypeRepeatForever],

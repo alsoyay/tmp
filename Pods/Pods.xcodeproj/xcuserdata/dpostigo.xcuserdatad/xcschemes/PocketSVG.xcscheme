@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E5DC53611B9C498742E2E04AD187576"
+               BlueprintIdentifier = "1B33E28007435E8298635CF7B57951C5"
                BuildableName = "PocketSVG.framework"
                BlueprintName = "PocketSVG"
                ReferencedContainer = "container:Pods.xcodeproj">

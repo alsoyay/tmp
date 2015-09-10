@@ -20,20 +20,34 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>7c4a623c37a77f191460d4ffa903c608f7577228</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIAppFonts</key>
-    <array>
-        <string>OpenSans-Bold.ttf</string>
-        <string>OpenSans-BoldItalic.ttf</string>
-        <string>OpenSans-ExtraBold.ttf</string>
-        <string>OpenSans-ExtraBoldItalic.ttf</string>
-        <string>OpenSans-Italic.ttf</string>
-        <string>OpenSans-Light.ttf</string>
-        <string>OpenSans-LightItalic.ttf</string>
-        <string>OpenSans-Regular.ttf</string>
-        <string>OpenSans-Semibold.ttf</string>
-        <string>OpenSans-SemiboldItalic.ttf</string>
+	<array>
+		<string>OpenSans-Bold.ttf</string>
+		<string>OpenSans-BoldItalic.ttf</string>
+		<string>OpenSans-ExtraBold.ttf</string>
+		<string>OpenSans-ExtraBoldItalic.ttf</string>
+		<string>OpenSans-Italic.ttf</string>
+		<string>OpenSans-Light.ttf</string>
+		<string>OpenSans-LightItalic.ttf</string>
+		<string>OpenSans-Regular.ttf</string>
+		<string>OpenSans-Semibold.ttf</string>
+		<string>OpenSans-SemiboldItalic.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

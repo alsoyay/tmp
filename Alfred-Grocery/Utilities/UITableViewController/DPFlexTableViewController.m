@@ -28,12 +28,10 @@ NSString *const DPFlexIdentifier = @"FlexCell";
 //        ret = UITableViewAutomaticDimension;
 
         CGFloat headerHeight = tableView.rowHeight;
-        NSLog(@"headerHeight = %f", headerHeight);
         // int numSections = tableView.numberOfSections;
 
 //        headerHeight = numSections > 2 ? headerHeight : (numSections - 2) * headerHeight;
 
-        NSLog(@"tableView. = %f", tableView.frame.size.height);
         CGFloat contentHeight = tableView.frame.size.height - self.staticHeightValue;
         ret = contentHeight;
 //        ret = UITableViewAutomaticDimension;
@@ -43,7 +41,6 @@ NSString *const DPFlexIdentifier = @"FlexCell";
     }
 
 
-    NSLog(@"%@, ret = %f", indexPath, ret);
 
 
     return ret;

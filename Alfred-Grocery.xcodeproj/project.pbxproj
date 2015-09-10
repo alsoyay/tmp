@@ -363,6 +363,7 @@
 				03ED60021B98D13900108D6A /* Resources */,
 				A59E721D3AF4371542319B8A /* Embed Pods Frameworks */,
 				8BF5E8173496893D016504F0 /* Copy Pods Resources */,
+				0304DCA31BA11129006D5D71 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -402,6 +403,7 @@
 				TargetAttributes = {
 					03ED60031B98D13900108D6A = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = RE8VZSYDX7;
 					};
 					03ED601C1B98D13900108D6A = {
 						CreatedOnToolsVersion = 6.4;
@@ -460,6 +462,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0304DCA31BA11129006D5D71 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/Fabric.framework/run\" 7c4a623c37a77f191460d4ffa903c608f7577228 18cc91811ec056e9b98f16e756e2030a66746824275f09d3a62dc7a1f0a1e642";
+		};
 		8BF5E8173496893D016504F0 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -657,10 +672,12 @@
 			baseConfigurationReference = 6110FFEBA2CEE5879E7A09AA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "Alfred-Grocery/Alfred-Grocery.pch";
 				INFOPLIST_FILE = "Alfred-Grocery/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -669,10 +686,12 @@
 			baseConfigurationReference = C05953DA7539EA91586F3CFD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PREFIX_HEADER = "Alfred-Grocery/Alfred-Grocery.pch";
 				INFOPLIST_FILE = "Alfred-Grocery/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

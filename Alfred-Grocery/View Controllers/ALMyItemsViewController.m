@@ -53,7 +53,6 @@
 - (void) tests {
 
     NSArray *something = [ALItem allFrequencyValues];
-    NSLog(@"something = %@", something);
 
 //    [ALItem test];
 
@@ -88,7 +87,7 @@
 
     ALItem *item = self.sources[indexPath.section][indexPath.row];
     ret.textLabel.text = item.name;
-    ret.detailTextLabel.text = [item valueForKey: @"extendedName"];
+    ret.detailTextLabel.text = item.extendedName;
 
     return ret;
 }
@@ -117,13 +116,9 @@
         item.frequency = destination.frequency;
 
 
-        NSLog(@"[source.items count] = %i", [source.items count]);
-        NSLog(@"[destination.items count] = %i", [destination.items count]);
         [source move: item destination: destination index: destinationIndexPath.row];
 
 
-        NSLog(@"[source.items count] = %i", [source.items count]);
-        NSLog(@"[destination.items count] = %i", [destination.items count]);
 
 
 

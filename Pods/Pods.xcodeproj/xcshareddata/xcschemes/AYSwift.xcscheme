@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B0375EBA0B8BC19C197C1895BD407E7C"
+               BlueprintIdentifier = "02F15602991FCAC28044E5374C349AD3"
                BuildableName = "AYSwift.framework"
                BlueprintName = "AYSwift"
                ReferencedContainer = "container:Pods.xcodeproj">

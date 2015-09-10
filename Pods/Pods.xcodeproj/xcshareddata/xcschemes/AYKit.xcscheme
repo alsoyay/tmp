@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4832ED19215BDC132F977EAC817D2568"
+               BlueprintIdentifier = "062FA839AA975A7732636D9FD37CB676"
                BuildableName = "AYKit.framework"
                BlueprintName = "AYKit"
                ReferencedContainer = "container:Pods.xcodeproj">
